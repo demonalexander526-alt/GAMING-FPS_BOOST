@@ -1,0 +1,16 @@
+[package]
+name = "fps_boost"
+version = "0.1.0"
+edition = "2021"
+authors = ["NEXO-TEH", "ALEXANDER"]
+description = "Ultimate Auto-Booster with Live Notifications"
+
+[dependencies]
+# System data monitoring
+sysinfo = "0.30"
+
+# Terminal UI Framework
+ratatui = { version = "0.26", features = ["crossterm"] }
+
+# Terminal backend & Event handling (Keys/Poll)
+crossterm = "0.27"
